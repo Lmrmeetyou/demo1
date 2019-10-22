@@ -1,0 +1,67 @@
+/* 设置设备的大小 */
+@media screen and (device-width: 320px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (device-width: 360px){
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (device-width: 375px){
+  html{
+    font-size: 18.75px;
+  }
+}
+@media screen and (device-width: 414px){
+  html{
+    font-size: 20.07px;
+  }
+}
+
+.navTop img{
+  width:100%;
+  display:block;
+}
+.items .title h4{
+  float:left;
+}
+.items .title span{
+  color:#888;
+ float:right;
+}
+.items {
+  padding:0 0.75rem;
+}
+.items .lin a{
+  float:clear;
+}
+.layout .title{
+  margin:0.8125rem 0;
+  font-size:0.875rem;
+  overflow: hidden;
+}
+.lin{
+  height: 6.8125rem;
+  margin-top:30px;
+  border:0.09375rem dashed #dedede;
+  background-color:white;
+  font-size:3.25rem;
+  box-sizing:border-box;
+}
+.lin a{
+  text-align: center;
+  color:#aaaa;
+  padding-top:1.125rem;
+}
+.lin span{
+  padding-top:0.5rem;
+  font-size:0.8125rem;
+  display:block;
+}
+.tip{
+  color:#ccc;
+  margin-top:0.5rem;
+  padding-left:0.8125rem;
+}
